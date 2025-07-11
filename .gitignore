@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django/migrations (keep __init__.py)
+**/migrations/
+!**/migrations/__init__.py
+
+# SQLite or other local DBs (optional, if using sqlite for dev)
+*.sqlite3
+
+# PostgreSQL settings (optional)
+*.pgdata
+
+# Logs and local dev stuff
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# VSCode settings
+.vscode/
+
+# PyCharm
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python environment files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.*
+
+# __pycache__ and test cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Compiled static files
+staticfiles/
+static/
+
+# Media files (optional)
+media/
